@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Tasky.iOS
+namespace Tasky_list.iOS
 {
 	public class Application
 	{

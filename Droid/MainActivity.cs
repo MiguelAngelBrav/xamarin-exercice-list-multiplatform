@@ -3,9 +3,9 @@ using Android.Widget;
 using Android.OS;
 using Android.Content;
 
-namespace Tasky.Droid
+namespace Tasky_list.Droid
 {
-	[Activity (Label = "Tasky", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Tasky List", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		private Button btnShowList;
@@ -13,6 +13,8 @@ namespace Tasky.Droid
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
+
+			this.SetTitle (Resource.String.main_activity_title);
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.activity_main);

@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace Tasky.iOS
+namespace Tasky_list.iOS
 {
 	[Register ("ListTableViewController")]
 	partial class ListTableViewController

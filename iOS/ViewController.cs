@@ -2,7 +2,7 @@
 using UIKit;
 using System.Collections.Generic;
 using Foundation;
-namespace Tasky.iOS
+namespace Tasky_list.iOS
 {
 	public partial class ViewController : UIViewController
 	{

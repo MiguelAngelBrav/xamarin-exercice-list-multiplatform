@@ -35,7 +35,7 @@
                     <connections>
                         <outlet property="ShowList" destination="oBE-Ac-vcx" id="name-outlet-oBE-Ac-vcx"/>
                     </connections>
-                    <navigationItem title="Phoneword" id="163" key="navigationItem"/>
+                    <navigationItem title="Tasky" id="163" key="navigationItem"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

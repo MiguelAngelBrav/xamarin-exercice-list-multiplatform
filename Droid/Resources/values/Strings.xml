@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">Tasky.Droid</string>
+	<string name="app_name">Tasky List</string>
+	<string name="main_activity_title">Tasky</string>
+	<string name="list_activity_title">Listado</string>
 	<string name="btn_show_list">Ver listado</string>
 </resources>

@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace Tasky.iOS
+namespace Tasky_list.iOS
 {
 	[Register ("ViewController")]
 	partial class ViewController
@@ -17,9 +17,12 @@ namespace Tasky.iOS
 		[Outlet]
 		UIKit.UIButton ShowList { get; set; }
 
-
 		void ReleaseDesignerOutlets ()
 		{
+			if (ShowList != null) {
+				ShowList.Dispose ();
+				ShowList = null;
+			}
 		}
 	}
 }

@@ -11,14 +11,16 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace Tasky.Droid
+namespace Tasky_list.Droid
 {
-	[Activity (Label = "ListTableActivity")]			
+	[Activity (Label = "Tasky List")]			
 	public class ListTableActivity : ListActivity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
+
+			this.SetTitle (Resource.String.list_activity_title);
 
 			// Create your application here 
 			var phoneNumbers = Intent.Extras.GetStringArrayList("phone_numbers") ?? new string[0]; 

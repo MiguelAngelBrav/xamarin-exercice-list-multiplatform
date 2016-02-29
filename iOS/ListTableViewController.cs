@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UIKit;
 
-namespace Tasky.iOS
+namespace Tasky_list.iOS
 {
 	public partial class ListTableViewController : UITableViewController
 	{
